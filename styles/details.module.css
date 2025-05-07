@@ -1,0 +1,58 @@
+/* styles/details.module.css */
+
+.container {
+    padding: 20px;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .detailsTable {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+    color: white;
+  }
+  
+  .detailsTable th, .detailsTable td {
+    padding: 12px;
+    border: 1px solid white;
+  }
+  
+  .detailsTable th {
+    background-color: #0070f3;
+    color: white;
+  }
+  
+  .detailsTable tr:nth-child(even) {
+    background-color: black;
+  }
+  .logoutButton {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .logoutButton button {
+    padding: 10px 20px;
+    background-color: #f44336; /* Red background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .logoutButton button:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  

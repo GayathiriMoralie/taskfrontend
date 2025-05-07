@@ -1,0 +1,43 @@
+.container {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .greeting {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .createTaskButton, .logoutButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .createTaskButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .createTaskButton:hover {
+    background-color: #45a049;
+  }
+  
+  .logoutButton {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .logoutButton:hover {
+    background-color: #e53935;
+  }
+  

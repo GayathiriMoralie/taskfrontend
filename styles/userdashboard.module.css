@@ -1,0 +1,168 @@
+/* Container for the whole page */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #121212; /* Dark background for contrast */
+  color: #f0f0f0; /* Light text for visibility */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Greeting title */
+.greeting {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Card container */
+.card {
+  background-color: #1e1e1e; /* Darker card to match dark theme */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  color: #ffffff; /* Light text inside dark card */
+}
+
+/* Task Card styling */
+.taskCard {
+  padding: 15px;
+  margin-bottom: 12px;
+  background-color: #2c2c2c;
+  border-left: 5px solid #3498db;
+  border-radius: 5px;
+  color: #f0f0f0;
+}
+
+/* Button styling */
+.createBtn, .submitBtn, .logoutBtn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Create Task Button */
+.createBtn {
+  background-color: #28a745;
+}
+
+.createBtn:hover {
+  background-color: #218838;
+}
+
+/* Submit Button */
+.submitBtn {
+  background-color: #007bff;
+}
+
+.submitBtn:hover {
+  background-color: #0069d9;
+}
+
+/* Logout Button */
+.logoutBtn {
+  background-color: #dc3545;
+}
+
+.logoutBtn:hover {
+  background-color: #c82333;
+}
+
+/* Input Fields */
+.inputField {
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #333;
+  color: #f0f0f0;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  /* .createTaskForm input,
+  .createTaskForm select,
+  .createTaskForm textarea {
+    font-size: 14px;
+  } */
+
+  .submitBtn,
+  .logoutBtn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: gray;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.submitBtn {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #005bb5;
+}
+.inputField{
+  -webkit-text-fill-color: black;
+}
+.form input,
+.form textarea,
+.form select {
+  color: black !important;
+  background-color: white !important;
+  -webkit-text-fill-color: black !important;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: black !important;
+  opacity: 1;
+}

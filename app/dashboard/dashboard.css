@@ -1,0 +1,130 @@
+/* General Styles */
+.dashboard-container {
+    padding: 2rem;
+    background-color: #f7f9fc;
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    color: black; /* Ensures all text inside is black */
+  }
+  
+  .header {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: black;
+  }
+  
+  /* Search Bar and Filters Section */
+  .search-filter-container {
+    margin-bottom: 2rem;
+    color: black;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: black;
+    background-color:black;
+  }
+  
+  .filter-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .filter-select {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: black;
+    background-color: white;
+  }
+  
+  .date-input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    color: black;
+    background-color: white;
+  }
+  
+  .task-list-container {
+    margin-top: 3rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    color: black;
+  }
+  
+  .task-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: black;
+  }
+  
+  .overdue-header {
+    color: #f44336; /* fixed from "light red" */
+  }
+  
+  .overdue {
+    background-color: #fff3f3;
+  }
+  
+  .task-list-container p {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+  }
+   
+  /* Placeholder color for all inputs */
+::placeholder {
+    color: black;
+    opacity: 1; /* Ensures it's fully visible */
+  }
+  
+  /* For better browser compatibility */
+  input::placeholder {
+    color: black;
+    opacity: 1;
+  }
+  
+  textarea::placeholder {
+    color: black;
+    opacity: 1;
+  }
+  
+  input::-webkit-input-placeholder {
+    color: black;
+  }
+  
+  input::-moz-placeholder {
+    color: black;
+  }
+  
+  input:-ms-input-placeholder {
+    color: black;
+  }
+  
+  input:-moz-placeholder {
+    color: black;
+  }
+  
