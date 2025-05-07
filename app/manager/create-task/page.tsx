@@ -72,7 +72,7 @@ export default function CreateTask() {
           <textarea
             id="description"
             name="description"
-            rows="4"
+            rows={4}
             value={task.description}
             onChange={handleChange}
             required
